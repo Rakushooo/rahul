@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloWeb extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		PrintWriter out=res.getWriter();
-		out.print("Hello Web");
+		out.print("Hello Web dev.");
 	}
 
 }
